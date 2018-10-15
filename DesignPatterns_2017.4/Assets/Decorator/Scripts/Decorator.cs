@@ -16,7 +16,7 @@ namespace Decorator
             _coffee = coffee;
         }
 
-        public string GetDescription()
+        public virtual string GetDescription()
         {
             return string.Format("{0}, {1}", _coffee.GetDescription(), _name);
         }
